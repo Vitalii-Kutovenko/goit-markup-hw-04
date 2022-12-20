@@ -117,8 +117,31 @@ body {
 display: block;
 content: "";
 height: 112px;
-
-
+background-color: #F4F4FD;
+}
+.about-item:nth-child(1)::before {
+  background-image: url(../images/antenna.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-item:nth-child(2)::before {
+  background-image: url(../images/clock.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-item:nth-child(3)::before {
+  background-image: url(../images/diagram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-item:nth-child(4)::before {
+  background-image: url(../images/astronaut.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .button-hero {
   width: 170px;
