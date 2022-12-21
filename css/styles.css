@@ -57,9 +57,7 @@ body {
   text-align: center;
 }
 .main {
-
   text-align: center;
-  
 }
 .overlay {
   padding-top: 192px;
@@ -69,12 +67,14 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
-  url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/people-office.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  
-
 }
 .navigation {
   display: flex;
@@ -114,10 +114,10 @@ body {
   width: 264px;
 }
 .about-item::before {
-display: block;
-content: "";
-height: 112px;
-background-color: #F4F4FD;
+  display: block;
+  content: "";
+  height: 112px;
+  background-color: #f4f4fd;
 }
 .about-item:nth-child(1)::before {
   background-image: url(../images/antenna.png);
@@ -204,6 +204,71 @@ background-color: #F4F4FD;
   background-color: #f4f4fd;
   padding-bottom: 120px;
 }
+.icon-link {
+  display: flex;
+  padding-top: 12px;
+  height: 76px;
+}
+.icon-instagram {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-top: 28%;
+  fill: #fff;
+}
+.instagram {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  margin-left: 16px;
+}
+.twitter {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  margin-left: 24px;
+}
+.icon-twitter {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-top: 28%;
+  fill: #fff;
+}
+.facebook {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  margin-left: 24px;
+}
+.icon-facebook {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-top: 28%;
+  fill: #fff;
+}
+.linkedin {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  margin-left: 24px;
+}
+.icon-linkedin {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-top: 28%;
+  fill: #fff;
+}
 .team-list li + li {
   margin-left: 24px;
 }
@@ -246,6 +311,7 @@ background-color: #F4F4FD;
   font-size: 16px;
   line-height: 1.5;
   color: #e7e9fc;
+  margin-top: 16px;
 }
 .footer {
   background-color: #2e2f42;
