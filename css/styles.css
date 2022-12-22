@@ -375,20 +375,33 @@ body {
 }
 .customers {
   text-align: center;
+  padding: 120px 0;
+}
+.customers h2 {
+  margin: 0;
+  margin-bottom: 72px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--secondary-text-color);
 }
 .brands {
   display: flex;
+  display: inline-block;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .brands li {
   border: 1px solid #8E8F99;
   width: 168px;
   height: 88px;
   border-radius: 4px;
-  flex-direction: column;
-  justify-content:center;
+  display: inline-block;
+  margin-left: 24px;
 }
 .yaco {
+  margin-top: 15%;
   width: 41px;
   height: 46px;
 }
