@@ -69,8 +69,8 @@ body {
   margin-right: auto;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
     ),
     url(../images/people-office.jpg);
   background-size: cover;
@@ -207,8 +207,8 @@ body {
 }
 .icon-link {
   display: flex;
-  padding-top: 12px;
-  height: 76px;
+  margin-top: 12px;
+  
 }
 .icon-instagram {
   width: 16px;
@@ -225,6 +225,7 @@ body {
   border-radius: 50%;
   margin-left: 16px;
 }
+
 .twitter {
   display: block;
   width: 40px;
@@ -274,6 +275,27 @@ body {
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.instagramf :hover,
+.instagramf :focus {
+  background-color: #31D0AA;
+  border-radius: 50%;
+  
+}
+.twitterf :hover,
+.twitterf :focus {
+  background-color: #31D0AA;
+  border-radius: 50%;
+}
+.facebookf :hover,
+.facebookf :focus {
+  background-color: #31D0AA;
+  border-radius: 50%;
+}
+.linkedinf :hover,
+.linkedinf :focus {
+  background-color: #31D0AA;
   border-radius: 50%;
 }
 .icon-instagramf {
@@ -393,17 +415,29 @@ body {
   padding-right: 15px;
 }
 .brands li {
-  border: 1px solid #8E8F99;
   width: 168px;
   height: 88px;
-  border-radius: 4px;
   display: inline-block;
   margin-left: 24px;
 }
-.yaco {
-  margin-top: 15%;
-  width: 41px;
-  height: 46px;
+.link-brand {
+  border: 2px solid #8E8F99;
+  display: block;
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+}
+.cust {
+  margin-top: 10%;
+  fill: #AFB1B8;
+  width: 104px;
+  height: 56px;
+}
+
+.brands li :hover,
+.brands li :focus {
+  fill: #4D5AE5;
+  border-color: #4D5AE5;
 }
 .footer {
   background-color: #2e2f42;
@@ -456,6 +490,12 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.portfolio-main li :hover,
+.portfolio-main li :focus{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-link h3 {
   font-weight: 600;
@@ -500,9 +540,6 @@ body {
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
-
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-main li:nth-child(3n) {
   margin-right: 0;
