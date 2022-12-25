@@ -69,8 +69,8 @@ body {
   margin-right: auto;
   background-image: linear-gradient(
       to right,
-      rgba(46, 47, 66, 0.5),
-      rgba(46, 47, 66, 0.5)
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
   background-size: cover;
@@ -275,54 +275,50 @@ body {
   display: flex;
 }
 .instagramf {
-  display: block;
   width: 100%;
   height: 100%;
-  
 }
-.link-list-footer li {
-  display: block;
+.link-list-footer a {
+  display: flex;
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  
+  align-items: center;
+  justify-content: center;
 }
 .instagramf:hover,
-.instagramf:focus {
+.instagramf :focus {
   background-color: #31D0AA;
   border-radius: 50%;
   
 }
 .twitterf:hover,
-.twitterf:focus {
+.twitterf :focus {
   background-color: #31D0AA;
   border-radius: 50%;
 }
 .facebookf:hover,
-.facebookf:focus {
+.facebookf :focus {
   background-color: #31D0AA;
   border-radius: 50%;
 }
 .linkedinf:hover,
-.linkedinf:focus {
+.linkedinf :focus {
   background-color: #31D0AA;
   border-radius: 50%;
 }
+ 
 .icon-instagramf {
   width: 24px;
   height: 24px;
   cursor: pointer;
-  margin-top: 20%;
-  margin-left: 20%;
   fill: #fff;
 }
 .icon-twitterf {
   width: 24px;
   height: 24px;
   cursor: pointer;
-  margin-top: 20%;
-  margin-left: 20%;
   fill: #fff;
 }
 .twitterf {
@@ -343,8 +339,6 @@ body {
   width: 24px;
   height: 24px;
   cursor: pointer;
-  margin-top: 20%;
-  margin-left: 20%;
   fill: #fff;
 }
 .linkedinf {
@@ -358,8 +352,6 @@ body {
   width: 24px;
   height: 24px;
   cursor: pointer;
-  margin-top: 20%;
-  margin-left: 20%;
   fill: #fff;
 }
 .team-list li + li {
@@ -432,7 +424,7 @@ body {
   margin-left: 24px;
 }
 .link-brand {
-  border: 2px solid #8E8F99;
+  border: 1px solid #8E8F99;
   display: block;
   width: 168px;
   height: 88px;
@@ -448,7 +440,7 @@ body {
 
 .link-brand:hover,
 .link-brand:focus {
-  border: 2px solid #4D5AE5;
+  border: 1px solid #4D5AE5;
   color: #4D5AE5;
 }
 
@@ -490,12 +482,11 @@ body {
   color: #4d5ae5;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-
+  padding: 12px 24px;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  width: 116px;
-  height: 48px;
+  
   margin-left: 24px;
   align-items: flex-start;
 }
@@ -509,7 +500,6 @@ body {
 }
 .portfolio-main li:hover,
 .portfolio-main li:focus{
-  border: 0.5px solid #F4F4FD;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-link h3 {
@@ -549,12 +539,14 @@ body {
 .portfolio-main {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .portfolio-main li {
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
+  border: 0.5px solid #F4F4FD;
 }
 .portfolio-main li:nth-child(3n) {
   margin-right: 0;
