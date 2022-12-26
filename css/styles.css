@@ -288,23 +288,23 @@ body {
   justify-content: center;
 }
 .instagramf:hover,
-.instagramf :focus {
+.instagramf:focus {
   background-color: #31D0AA;
   border-radius: 50%;
   
 }
 .twitterf:hover,
-.twitterf :focus {
+.twitterf:focus {
   background-color: #31D0AA;
   border-radius: 50%;
 }
 .facebookf:hover,
-.facebookf :focus {
+.facebookf:focus {
   background-color: #31D0AA;
   border-radius: 50%;
 }
 .linkedinf:hover,
-.linkedinf :focus {
+.linkedinf:focus {
   background-color: #31D0AA;
   border-radius: 50%;
 }
