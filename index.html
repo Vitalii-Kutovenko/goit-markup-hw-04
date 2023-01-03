@@ -34,10 +34,17 @@
     </div>
     </header>
     <main>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="modal-btn" data-modal-close>
+            <img class="icon-close" src="./images/close.jpg" alt="">
+          </button>
+        </div>
+      </div>
       <section class="main">
         <div class="overlay">
         <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
-        <button class="button-hero" type="button">Order Service</button>
+        <button class="button-hero" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
       <section class="about-company">
@@ -307,6 +314,7 @@
       </div>
     </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
 
